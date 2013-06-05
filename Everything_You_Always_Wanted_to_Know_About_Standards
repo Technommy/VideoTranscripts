@@ -218,7 +218,45 @@ there are many more iterations,
 
 [MATURITY LEVELS] 00:11:47
 
-...
+we get feed bug, either from the public or working group members
+and there's multiple are working draft, which are obviously not first,
+so it's working draft.
+and eventually at some point, we decide that, "hey, this's good enough, let's move on."
+So, there's Last Call Working Draft, which basically tells people please give us feed bug 
+cuz this is going to move forward that you won't be able to.
+Last call usually lasts about, from three weeks to maybe like two months, sometimes.
+So this is the quite enought time from people to give feed bug 
+As you know, the heading here says last call workgin draft. that's a new thing
+And it's a great thing.
+Cuz in the past, last call working draft were just like working draft and you didn't know.
+Was this the last call? Should I give feed bugs, or it just, any other working draft.
+
+So eventually, we get the candidate recommendation which means the acutally specification
+is pretty mature then.
+implementation can start to happen, although sometimes they happens from working draft stage
+but the candidate recommendation is where * implementing it.
+and to move forward fromcandidate recommendation
+we need two things, test, which we'll explaint this later
+and two intro problem implementations, like two different engines not like safari and chrome 
+oh, chrome is now blink, so yep, that could work
+
+it's hard to keep track with these things.
+so we need at least two implementations, and the whole purpose of that
+is to know that the specification is good enough
+it can be implement cuz you know specification have bugs as well.
+
+writing specification is alot like writing code, but in natural language.
+if that make any sense.
+so once we get test, the implementations, we can advanced to purpose the recommentation.
+which is like the semi-final stage
+I've never heard of any spec that reach the purpose of recommendation didn't reach recommendation. 
+it's just like the last stage for people, for the advisory commitee
+which is like people, the head of every member company to register any objections 
+and eventually, we move the recommendation which is the last stage
+it doesn't mean that the version of the spec should happen now it could happen in any stage before
+like selector 4 happend to be * selector 3 were still like.
+either candidate recommendation or even working draft, *(i don't rememnber?)
+so spec doesn't need to reach the recommendation for the next version to start.
 
 [MATURITY LEVELS] 00:14:37
 
@@ -253,3 +291,6 @@ and here's a new site, it's not related to W3C at all, but it I quite like it.
 it's how to keep up to date on
 "Front and end technologies."
 and how's like lots of different ways, conferences, people, staff like that.
+
+
+[CHECK THE TYPO PLZ]

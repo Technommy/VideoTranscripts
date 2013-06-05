@@ -31,7 +31,7 @@ the ones related to the infrastructure web
 are usually made by IETF, like TCP/IP or HTTP protocol, 
 W3C makes pretty much all the languages we use daily
 except the javascript core, which are basically the ECMAScript
-it's ECMAScript because standardized by ECMA
+it's ECMAScript because it standardized by ECMA
 
 However, most of the APIs we use like 
 XMLHTTPRequest, DOM APIs, selectorAPIs, or Local Storage 
@@ -75,7 +75,7 @@ that standardized with W3C and W3C also organized their workshops,
 that kind of thing.
 
 By the way, this is the logo for W3Conf, 
-I'm really proud of it cause I desgin it.
+I'm really proud of it cuz I desgin it.
 So since it's W3C working groups that make the stardards, 
 what is a working group, what is it made of?
 What kind of people are in there? Is just W3C staff?

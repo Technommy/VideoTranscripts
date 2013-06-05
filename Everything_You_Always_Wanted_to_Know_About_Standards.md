@@ -1,0 +1,255 @@
+Unlike most of my talks this is not a technical one
+actually unlike all my talks, there won't be any code in it
+but it's about something I hold very dearly
+web standards
+I became passion about web standards since I first hear what they are 
+and last august I joined W3C to help with their mission
+I think develoeprs should know more about 
+how the standardization process works for number of different reasons 
+not only to contribute 
+feed bug, ideas
+make them move faster
+result better standard
+cause that's what we use everyday 
+but also to follow standardization 
+and exercise some degree of control over the dicision being made 
+cause that affect what we do
+and they will affected for many years
+
+so after I joined W3C, 
+people started asking me lots of questions about how it works
+which why giving me the idea of doing this talk, 
+these are some of the questions I get 
+and if you find by the end of the talk that your question is not answered, 
+feel free to grab me I'll be here all day.
+
+The first one is kind of easy, are all web standards made in W3C
+W3C makes lots of the web standards 
+that we use everyday but not all of them
+
+the ones related to the infrastructure web 
+are usually made by IETF, like TCP/IP or HTTP protocol, 
+W3C makes pretty much all the languages we use daily
+except the javascript core, which are basically the ECMAScript
+it's ECMAScript because standardized by ECMA
+
+However, most of the APIs we use like 
+XMLHTTPRequest, DOM APIs, selectorAPIs, or Local Storage 
+are also from W3C
+
+And that's why I'm focus more on W3C 
+not just because I work there, 
+so I've more closely observe how it works.
+
+But also because tons of website 
+we use everyday are standardized there, 
+so I find this lot of confusion about what W3C actually does
+
+Poeple don't ask me exactly this question, what dose W3C do?
+But they often tell me saying or asking me question that review, 
+there're some information in there, this is what many people believe, 
+"All W3C specifications are written by W3C staff. All W3C staff writes specifications, full-time."
+tons of people have come and ask me about at W3C like, 
+how is it to write specification
+that's not even in my job descripttion. so that's a myth
+
+there'e tons of people in W3C that don't do specifications, 
+and actually,
+specifications are not written by W3C, they're written by the working groups, 
+It's the working groups that actually make the sausages, 
+I mean write the specs.
+
+So what does W3C do?
+W3C just sets the rules, there's a whole process document, 
+you can find this address, 
+if you want learn more about it, it's very detail, 
+probably more detail than you want to know.
+
+But every question you might have will be answered by that
+And W3C are also cordinated the process, overseas, what's going on, 
+schedule the events like tea park every year,
+And W3C also makes the tools, and promote it to education.
+For instance, we held W3Conf this year in San Francisco in Feb, 
+and there's validator, CSS validator, the HTML validator
+that standardized with W3C and W3C also organized their workshops, 
+that kind of thing.
+
+By the way, this is the logo for W3Conf, 
+I'm really proud of it cause I desgin it.
+So since it's W3C working groups that make the stardards, 
+what is a working group, what is it made of?
+What kind of people are in there? Is just W3C staff?
+
+So a working group, is basically member companies, 
+which are big company like browser vendors, big websites,
+or any other companies like research, facilities, 
+or Companies like Adobe, 
+or Hardware companies like Intel.
+Anyone that has interest in web standards, 
+and this is how W3C gets the funds to corperate. 
+Unlike the other standardization
+* for instance *, have you, 
+I guess you've heard about * standards, 
+* standards is not free, you can't like go and read * standard, 
+you have to pay for it.
+
+So W3C managers to keep standards open 
+because it gets the funds need to corperate from this companies, 
+they pay like yearly subscription
+
+Obviously, working group have W3C staff in them, 
+but we'll see soon web * W3C staff is. 
+And some invited experts, 
+which are community members have show they'll benefit the working  group 
+that've being part of it.
+and one of the W3C staff members is designated to be the team contact, 
+which brings news from the working group into W3C
+So I've told you that there're W3C stuff in every working group, 
+right, so you might think, 
+it's W3C staff that actually make the standards.
+
+However, most of (every) the working group is actually member companies, 
+for instance, the CSS Working Group, there are like 93 people, 
+83 of those are from member companies, 
+they're only 5 invited experts and 6 W3C stuff, 
+including me,
+which is like 6.4 percent
+
+And other working groups is even lower, 
+W3C stuff is like 4.5 percent or 3.5 percent on the WebApps Working Group 
+which is make the selectorAPIS, OR XMLHTTPRequest APIs, or things like that.
+
+it's a bit higher and then turned this into standardization working group 
+but also invited the experts.
+and the HTML working group is special, 
+it has tons of invited experts, 
+because practically everyone can become an invited experts. 
+You'll just follow the application. 
+Every single one of you can become an invited experts in the HTML working group 
+
+So this is the biggest myth that I'm here about W3C. 
+W3C creates standards that browsers have implement without having say in it, 
+which is not true, 
+browsers are like a huge percentage in most of the working groups, 
+so that's not true 
+
+So since working groups actually makes the specs, 
+how do they do that?
+How do working groups works together and make specs?
+Who writes these specs?
+Do the 94 people in the CSS working group actually edit the specs?
+so there're many ways for working group to work together
+everyday we have, like the mailing list, or they can chat on IRC
+Some of them have a wiki that they use to plan event
+register issue and stuff like that, some of them use the bug tracker, 
+actually all of them use the bug tracker, but some of them use more than others.
+for instance the css working group 
+use the mailing list much more than other working groups
+and there's a telcon every week, where people call-in 
+and listen to what everybody say and speak their mind.
+
+And every 3 month there's also a face-to-face meeting, 
+somewhere in the world, every working group have at least one chair,
+sometimes it's two, and usually they are the people from the member companies 
+but they could be any working group member
+they are responsible for cordinating the whole process, 
+sending out the agenda before every meeting, 
+making all the important decisions, things like that
+
+And this is the spec editors, that actually write the specs, 
+the spec editors are usually the peoople from the working groups 
+that have the offer, "Hey I want to write the spec, can I do it, plz" 
+and the working groups is like 
+"yep, suer, plz do" 
+sometimes there's the spec editor that do like tons of work, 
+for instance in the css working group,
+there's *name *name, *fantasai, 
+they edit like 90 percent of the specification in css. 
+
+And there are other spec editors that have other things to do, they're busy
+and they don't do as much of the spec editing as what expected 
+so the specification might stop for years 
+that's what happened with CSS transitions and CSS animations, 
+and I think CSS transforms as well eventually they change the editors, 
+but sometimes what expect too long. 
+it's not necessarily in W3C, the only thing that working group can do is change the editor 
+we can't like push the editor to work more and he's back. 
+So I'm sure that you heard about maturity levels 
+like working draft, candidate recommendation, things like that, 
+what do this actually mean, when is the spec are ready?
+Everything starts from an idea, somebody, 
+you or browser vendor or anybody suggest something to working group.
+there's some amount of healthy debate, 
+let's not forget the very common saying, 
+standards are to peace as standardization is to war. 
+But eventually the war ends, and peace comes, 
+so there can be three possible outcomes basically, either it's accepted, 
+and the working group plans to added to spec at some points, 
+or it's rejected, that doesn't happened very often, or just forgotten, 
+like the discussion stops, nobody bumps it, 
+and that happens way more often than it should, unfortunately.
+
+So if you get involved in discussion like that 
+maybe you should try to remind people and say, 
+hey, somebody will reply to me plz." 
+
+So asuming you get accepted that eventually get into next editor's draft, 
+which is like the first stage, every feature goes from the stage, 
+it's not a spec yet.
+
+You can't call the editor draft a spec
+that could be all kind of crazy things
+and editor's draft that nobody check what goes in there.
+
+Any editor could _ask_ things there, and the working group never were proved. 
+so it's a mistake that people links to the editor's draft, and they are like, 
+"plz implement browser acks. "
+
+Eventually the working group will review, 
+the whole working group is suppose to review the editor's draft, 
+but usually to few members, 
+and we'll get this first public working draft. 
+which means this spec is actually started to mature 
+and more accepted by the working group, 
+but it still not there yet.
+
+We don't usually get implementations at that stage, 
+there are many more iterations,
+
+[MATURITY LEVELS] 00:11:47
+
+...
+
+[MATURITY LEVELS] 00:14:37
+
+A question I often hear is, how can I keep up?
+There's lot of things happening, 
+so what do I do, 
+the good things is the W3C very transparent, 
+at least in these years. 
+in the past it wasn't that transparent but now, 
+for the past few years it's been very transparent. 
+pretty much everything is public.
+
+Mailing list are usually public 
+cause these are on working groups actually have the technical discussion 
+W3C specifications are free and public 
+which is not the case it with standards 
+btw you don't have to keep notes, my slides are online.
+Telcon and face-to-face minutes are public, 
+even though the telcon and face-to-faace meeting are end.
+oh quite often that f2f meeting are often open to auditing 
+so one way to keep up is follow thism the mailing list, 
+so everybody getting suppose it.
+you can find all the standards draft at this link 
+and if you don't wanna read standards, 
+this is a new effort by W3C along with a number of different companies 
+like adobe, facebook, google, hp, mozzilla, 
+it's an effort to document the web along with community 
+and create like the best documentation that's vendor nuetral 
+if you heard about it and want the sticker, 
+I have plenty with me, so just find me after with.
+and here's a new site, it's not related to W3C at all, but it I quite like it. 
+it's how to keep up to date on
+"Front and end technologies."
+and how's like lots of different ways, conferences, people, staff like that.
